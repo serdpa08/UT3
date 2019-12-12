@@ -1,0 +1,32 @@
+%contenedor{
+    display: flex;
+    background-color: brown;
+    min-height: 700px;
+    justify-content: center;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+%capa{
+    background-color: cadetblue;
+    margin: 15px;
+    padding: 18px;
+    font-size: 2rem;
+}
+
+.contenedorf{
+    @extend %contenedor;
+    align-items: flex-start;
+    > div{
+        @extend %capa;
+    }
+}
+
+.contenedorcentradoperfecto{
+    @extend %contenedor;
+    align-items: center;
+
+    > div{
+        @extend %capa;
+    }
+}

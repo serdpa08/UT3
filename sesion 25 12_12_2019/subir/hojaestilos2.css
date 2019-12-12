@@ -1,0 +1,24 @@
+.contenedorcentradoperfecto, .contenedorf {
+  display: flex;
+  background-color: brown;
+  min-height: 700px;
+  justify-content: center;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.contenedorcentradoperfecto > div, .contenedorf > div {
+  background-color: cadetblue;
+  margin: 15px;
+  padding: 18px;
+  font-size: 2rem;
+}
+
+.contenedorf {
+  align-items: flex-start;
+}
+.contenedorcentradoperfecto {
+  align-items: center;
+}
+
+/*# sourceMappingURL=hojaestilos2.css.map */
